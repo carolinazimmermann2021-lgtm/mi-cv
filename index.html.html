@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>CV de Nombre y Apellido</title>
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>NOMBRE Y APELLIDO</h1>
+    </header>
+
+    <!-- Imagen principal / foto de perfil -->
+    <div>
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200" 
+             alt="Foto de perfil" 
+             width="100%">
+    </div>
+
+    <!-- Contenido principal del CV -->
+    <main>
+
+        <!-- Sección: Edad -->
+        <section>
+            <h2>Edad</h2>
+            <p>25 años</p>
+        </section>
+
+        <!-- Sección: Domicilio -->
+        <section>
+            <h2>Domicilio</h2>
+            <p>Av. Corrientes 1234, Ciudad Autónoma de Buenos Aires, Argentina</p>
+        </section>
+
+        <!-- Sección: Series favoritas (lista desordenada) -->
+        <section>
+            <h2>¿Qué series me gustan?</h2>
+            <p>Usar una lista:</p>
+            <ul>
+                <li>Breaking Bad</li>
+                <li>Stranger Things</li>
+                <li>The Crown</li>
+                <li>Dark</li>
+            </ul>
+        </section>
+
+        <!-- Sección: Películas favoritas (lista ordenada) -->
+        <section>
+            <h2>¿Qué pelis son las que más me gustaron?</h2>
+            <p>Usar otra lista:</p>
+            <ol>
+                <li>El Padrino</li>
+                <li>Interestelar</li>
+                <li>Parásitos</li>
+                <li>El origen</li>
+            </ol>
+        </section>
+
+        <!-- Sección: Perfil (3 párrafos) -->
+        <section>
+            <h2>Perfil</h2>
+            <p>Usar 3 párrafos, que me gusta hacer o no.</p>
+            <p>Soy una persona apasionada por la tecnología y el desarrollo web. 
+               Me encanta aprender cosas nuevas cada día y enfrentar desafíos 
+               que me permitan crecer profesionalmente.</p>
+            <p>Disfruto trabajar en equipo, compartir conocimientos y colaborar 
+               en proyectos que generen un impacto positivo. No me gustan las 
+               tareas monótonas ni los ambientes donde no se fomente la creatividad.</p>
+            <p>En mi tiempo libre me gusta leer, salir a caminar y experimentar 
+               con nuevos lenguajes de programación. Siempre busco mejorar mis 
+               habilidades como Front End Developer.</p>
+        </section>
+
+        <!-- Enlace al formulario -->
+        <section>
+            <p>Si querés contactarme podes completar el siguiente 
+               <a href="#formulario" target="_blank">formulario</a>.</p>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="formulario">
+            <h2>Formulario de contacto</h2>
+            <form action="#" method="post">
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+
+                <label for="asunto">Asunto:</label><br>
+                <select id="asunto" name="asunto">
+                    <option value="consulta">Consulta general</option>
+                    <option value="trabajo">Propuesta de trabajo</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
+
+                <label>
+                    <input type="checkbox" name="acepto" value="si">
+                    Acepto ser contactado
+                </label><br><br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 - Nombre y Apellido. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
